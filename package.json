@@ -1,0 +1,11 @@
+{
+  "name": "email-templates",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mjml": "^4.6.2"
+  }
+}
