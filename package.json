@@ -5,7 +5,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "mjml": "^4.6.2"
+  "devDependencies": {},
+  "dependencies": {
+    "mjml": "^4.6.2",
+    "mustache": "^4.0.1"
   }
 }
