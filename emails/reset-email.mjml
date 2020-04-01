@@ -23,7 +23,7 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-button background-color="#ff004b" href="https://upframe.io/reset/password/{{ token }}">Confirm Email</mj-button>
+        <mj-button background-color="#ff004b" href="https://upframe.io/reset/email/{{ token }}">Confirm Email</mj-button>
       </mj-column>
     </mj-section>
   </mj-body>
