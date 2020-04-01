@@ -17,13 +17,13 @@
     <mj-section>
       <mj-column width="400px">
         <mj-text>Hello {{ name }},</mj-text>
-        <mj-text>You recently requested a password reset for your Upframe account.</mj-text>
-        <mj-text>If you did not make this request, please ignore this email.</mj-text>
+        <mj-text>You recently requested to change the email address associated with <a href="https://upframe.io/{{ handle }}">your Upframe account</a> to this address.</mj-text>
+        <mj-text>If you did not make this request, please contact us and do not click the button below.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-button background-color="#ff004b" href="https://upframe.io/reset/password/{{ token }}">Reset Password</mj-button>
+        <mj-button background-color="#ff004b" href="https://upframe.io/reset/password/{{ token }}">Confirm Email</mj-button>
       </mj-column>
     </mj-section>
   </mj-body>
