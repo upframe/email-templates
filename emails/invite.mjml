@@ -7,6 +7,11 @@
         font-family: Poppins, Helvetica;
       }
     </mj-style>
+    <mj-style inline="inline">
+      .link-nostyle {
+        color: inherit;
+      }
+    </mj-style>
   </mj-head>
   <mj-body css-class="body">
     <mj-section>
@@ -21,24 +26,23 @@
         </mj-text>
         {{#mentor}}
           <mj-text>
-            <a href="https://upframe.io/{{handle}}">{{name}}</a> believes you’re a community leader who enjoys giving back and helping others grow. Someone who worked very hard to earn a place in the industry.
+            <a color="pink" href="https://upframe.io/{{handle}}" class="link-nostyle">{{name}}</a> believes you’re a community leader who enjoys giving back and helping others grow. Someone who worked very hard to earn a place in the industry.
           </mj-text>
           <mj-text>
-            This is an invite to join <a href="https://upframe.io">Upframe</a> as a mentor. We’re a invite-only platform that is helping new startup founders find successful mentors they can call friends and go to for advice.
+            This is an invite to join <a href="https://upframe.io" class="link-nostyle">Upframe</a> as a mentor. We’re a invite-only platform that is helping new startup founders find successful mentors they can call friends and go to for advice.
           </mj-text>
           <mj-text>
             You can use our platform to find interesting projects and to schedule video calls with anyone in your life in a easier way. One link, two clicks and it’s done.
           </mj-text>
-        {{/mentor}}
-        {{#user}}
+        {{/mentor}} {{#user}}
           <mj-text>
-            <a href="https://upframe.io/{{handle}}">{{name}}</a> believes you are someone ambitious and like-minded, with great potential to become an amazing founder.
+            <a href="https://upframe.io/{{handle}}" class="link-nostyle">{{name}}</a> believes you are someone ambitious and like-minded, with great potential to become an amazing founder.
           </mj-text>
           <mj-text>
-            This is your invite to join <a href="https://upframe.io">Upframe</a> We’re an invite-only platform where you can find people who understand your pain. People who want to help you grow. Mentors you can call friends.
+            This is your invite to join <a href="https://upframe.io" class="link-nostyle">Upframe</a> We’re an invite-only platform where you can find people who understand your pain. People who want to help you grow. Mentors you can call friends.
           </mj-text>
           <mj-text>
-            You can use <a href="https://upframe.io">Upframe</a> to find mentors and schedule video calls with them, so you can get advice and build something you can be proud of. We’ll be by your side in every step of the way.
+            You can use <a href="https://upframe.io" class="link-nostyle">Upframe</a> to find mentors and schedule video calls with them, so you can get advice and build something you can be proud of. We’ll be by your side in every step of the way.
           </mj-text>
         {{/user}}
         <mj-text>
