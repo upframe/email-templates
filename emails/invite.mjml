@@ -14,12 +14,12 @@
     </mj-style>
   </mj-head>
   <mj-body>
-    <mj-wrapper background-size="960px" background-repeat="no-repeat" background-color="#c9cfd4">
+    <mj-wrapper background-size="960px" background-color="#FFF">
       <mj-section>
         <mj-column border="1px solid #c9cfd4" border-radius="10px" width="400px" background-color="#FFFFFF">
-          <mj-image width="80px" href="https://upframe.io/{{handle}}" src="https://beta.upframe.io/emailLogo.png"></mj-image>
+          <mj-image width="80px" href="https://upframe.io/" src="https://beta.upframe.io/emailLogo.png"></mj-image>
           <mj-text>
-            Hi ,
+            Hi there,
           </mj-text>
           {{#mentor}}
             <mj-text>
@@ -33,7 +33,7 @@
             </mj-text>
           {{/mentor}} {{^mentor}}
             <mj-text>
-              <a href="https://upframe.io/{{handle}}" class="link-nostyle">{{name}}</a> believes you are someone ambitious and like-minded, with great potential to become an amazing founder.
+              <a href="https://upframe.io/" class="link-nostyle">{{name}}</a> believes you are someone ambitious and like-minded, with great potential to become an amazing founder.
             </mj-text>
             <mj-text>
               This is your invite to join <a href="https://upframe.io" class="link-nostyle">Upframe</a>. We’re an invite-only platform where you can find people who understand your pain. People who want to help you grow. Mentors you can call friends.
