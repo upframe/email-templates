@@ -37,7 +37,7 @@
             </mj-text>
           {{/mentor}} {{^mentor}}
             <mj-text>
-              <a href="https://upframe.io/" class="link-nostyle">{{name}}</a> believes you are someone ambitious and like-minded, with great potential to become an amazing founder.
+              <a href="https://upframe.io/{{handle}}" class="link-nostyle">{{name}}</a> believes you are someone ambitious and like-minded, with great potential to become an amazing founder.
             </mj-text>
             <mj-text>
               This is your invite to join <a href="https://upframe.io" class="link-nostyle">Upframe</a>. We’re an invite-only platform where you can find people who understand your pain. People who want to help you grow. Mentors you can call friends.
