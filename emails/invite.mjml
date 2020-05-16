@@ -7,6 +7,11 @@
         font-family: Poppins, Helvetica;
       }
 
+      div {
+        font-family: Poppins, Helvetica !important;
+        font-size: 16px !important;
+      }
+
       table {
         border-collapse: separate;
       }
