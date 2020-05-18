@@ -1,15 +1,13 @@
 <mjml>
   <mj-head>
     <mj-font name="Poppins" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <mj-attributes>
+      <mj-text font-family="Poppins, Helvetica" font-weight="600" font-size="16px" color="#000000" line-height="26px"></mj-text>
+    </mj-attributes>
+
     <mj-style css-class="body">
       .body {
         background-color: #fff;
-        font-family: Poppins, Helvetica;
-      }
-
-      div {
-        font-family: Poppins, Helvetica !important;
-        font-size: 16px !important;
       }
 
       table {
@@ -35,7 +33,7 @@
               <a href="https://upframe.io/{{handle}}" class="link-nostyle">{{name}}</a> believes you’re a community leader who enjoys giving back and helping others grow. Someone who worked very hard to earn a place in the industry.
             </mj-text>
             <mj-text>
-              This is an invite to join <a href="https://upframe.io" class="link-nostyle">Upframe</a> as a mentor. We’re a invite-only platform that is helping new startup founders find successful mentors they can call friends and go to for advice.
+              This is an invite to join <a href="https://upframe.io" class="link-nostyle">Upframe</a> as a mentor. We’re a invite-only platform that is helping new startup founders find successful mentors they can rely on and go to for advice.
             </mj-text>
             <mj-text>
               You can use our platform to find interesting projects and to schedule video calls with anyone in your life in a easier way. One link, two clicks and it’s done.
