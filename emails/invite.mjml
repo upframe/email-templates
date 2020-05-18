@@ -2,7 +2,7 @@
   <mj-head>
     <mj-font name="Poppins" href="https://fonts.googleapis.com/css?family=Poppins" />
     <mj-attributes>
-      <mj-text font-family="Poppins, Helvetica" font-weight="600" font-size="16px" color="#000000" line-height="26px"></mj-text>
+      <mj-text font-family="Poppins, Helvetica" font-weight="normal" font-size="16px" color="#000000" line-height="26px"></mj-text>
     </mj-attributes>
 
     <mj-style css-class="body">
