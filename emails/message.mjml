@@ -1,0 +1,52 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <mj-attributes>
+      <mj-text font-family="Poppins, Helvetica" font-weight="normal" font-size="16px" color="#000000" line-height="26px"></mj-text>
+    </mj-attributes>
+
+    <mj-style inline>
+      .body {
+        background-color: #c9cfd4;
+      }
+
+
+      a {
+        color: inherit;
+        text-decoration: underline
+      }
+
+      .msg {
+        background-color: #f7f9fa;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body css-class="body">
+    <mj-wrapper>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-image width="80px" href="https://upframe.io/" src="https://beta.upframe.io/emailLogo.png"></mj-image>
+          <mj-text>
+            Hi {{to.name}},
+          </mj-text>
+          <mj-text>
+            <a href="https://upframe.io/{{from.handle}}">{{from.name}}</a> left you a message:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column padding="0 20px">
+          <mj-text css-class="msg">
+            {{message}}
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-button font-weight="bold" background-color="#FF205C" border-radius="5px" color="#FFFFFF" href="{{ReplyLink}}" target="_top">Reply via email</mj-button>
+          <mj-spacer height="25px" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
