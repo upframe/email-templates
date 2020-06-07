@@ -1,0 +1,76 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text font-family="Poppins, Helvetica" color="#000" font-size="16px" line-height="26px"></mj-text>
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .wrapper {
+        border: 1px solid #c9cfd4;
+        border-radius: 8px;
+      }
+
+      a {
+        color: #000;
+        text-decoration: underline;
+      }
+
+      .msg {
+        background-color: #f7f9fa;
+        border-radius: 8px;
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body background-color="#fff">
+    <mj-wrapper css-class="wrapper">
+
+      <mj-section>
+        <mj-column>
+          <mj-image width="80px" href="https://upframe.io/" src="https://beta.upframe.io/emailLogo.png" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text>
+            Hi {{ mentor.name }},
+          </mj-text>
+          <mj-text>
+            We are reaching out to let you know
+            <a href="https://upframe.io/{{ mentee.handle }}">{{ mentee.name }}</a>
+            invited you to a
+            <a href="{{ meetup.location }}">video call</a>
+            on {{ meetup.time }} <abbr title="{{ tz.name }}">{{ tz.abbr }}</abbr>.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text>
+            {{ mentee.name }} left you a message:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column padding="0 20px">
+          <mj-text css-class="msg">
+            {{ message }}
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="40px 20%">
+        <mj-column>
+          <mj-button font-weight="bold" background-color="#fff" border-radius="5px" border="1px solid #ff205c" color="#ff205c" href="https://upframe.io/meetup/cancel/{{ meetup.id }}">Cancel</mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-button font-weight="bold" background-color="#ff205c" border-radius="5px" color="#fff" href="https://upframe.io/meetup/confirm/{{ meetup.id }}">Accept</mj-button>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+  </mj-body>
+</mjml>
