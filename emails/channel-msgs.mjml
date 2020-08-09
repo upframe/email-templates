@@ -98,7 +98,7 @@
           Hi {{ to.displayName }},
         </mj-text>
         <mj-text align="center" font-weight="bold" font-size="19px">
-          You have {{ messages.length }} new messages.
+          {{ newStr }}.
         </mj-text>
       </mj-column>
     </mj-section>
