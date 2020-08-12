@@ -35,8 +35,9 @@
         max-width: 100%;
       }
 
-      .links a {
-        font-size: 12px;
+      .settings a {
+        font-size: 10px;
+        color: black;
       }
 
       .settings {
