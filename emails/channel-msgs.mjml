@@ -141,5 +141,8 @@
         </mj-column>
       </mj-group>
     </mj-section>
+    <mj-raw>
+      <span style="opacity: 0">{{ timestamp }}</span>
+    </mj-raw>
   </mj-body>
 </mjml>
