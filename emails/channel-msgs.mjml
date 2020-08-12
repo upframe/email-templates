@@ -34,6 +34,14 @@
         width: 400px;
         max-width: 100%;
       }
+
+      .links a {
+        font-size: 12px;
+      }
+
+      .settings {
+        text-align: center;
+      }
     </mj-style>
     <mj-style css-class="msg">
       .msg-wrap {
@@ -142,6 +150,11 @@
       </mj-group>
     </mj-section>
     <mj-raw>
+      <div class="settings">
+        <a href="https://upframe.io/settings/notifications">notification settings</a>
+        |
+        <a href="https://upframe.io/settings/notifications?unsubscribe={{ unsubToken }}">unsubscribe</a>
+      </div>
       <span style="opacity: 0">{{ timestamp }}</span>
     </mj-raw>
   </mj-body>
