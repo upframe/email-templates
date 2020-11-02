@@ -1,0 +1,40 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <mj-attributes>
+      <mj-text font-family="Poppins, Helvetica" font-weight="normal" font-size="16px" color="#000000" line-height="26px"></mj-text>
+    </mj-attributes>
+
+    <mj-style css-class="body">
+      .body {
+        background-color: #fff;
+      }
+
+      table {
+        border-collapse: separate;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: underline
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body css-class="body">
+    <mj-wrapper>
+      <mj-section>
+        <mj-column border="1px solid #c9cfd4" border-radius="8px">
+          <mj-image width="80px" href="https://upframe.io/" src="{{ logo }}"></mj-image>
+          <mj-text font-size="20px">
+            Join the {{spaceName}} space on Upframe.
+          </mj-text>
+          <mj-text>
+            <a href="https://upframe.io/{{userHandle}}">{{userName}}</a> has invited you to join the <a href="https://upframe.io/space/{{spaceHandle}}">{{spaceName}} space</a> on <a href="https://upframe.io">Upframe</a> as a {{role}}.
+          </mj-text>
+          <mj-button font-weight="bold" background-color="#FF205C" border-radius="5px" color="#FFFFFF" href="https://upframe.io/join/{{token}}">Join {{spaceName}}</mj-button>
+          <mj-spacer height="25px" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
